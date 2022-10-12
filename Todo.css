@@ -1,0 +1,78 @@
+.header{
+    background-image: url(./weather.jpg);
+    background-position:center;
+    background-clip: content-box;
+    height: 7rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-basis: content;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+
+
+
+}
+.content {
+
+    
+}
+.content ul{
+  
+}
+
+
+.content ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid white;   
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.content .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    margin-top: 2rem;
+    padding: 0.7rem 4rem;
+    border: none;
+    outline: none;
+  color: var(--color-bg);
+    margin-bottom: 1rem;
+    transition: var(--transition);
+    font-size: 1.4rem;
+
+
+}
+
+input:hover{
+    background: var(--color-primary);
+    color: white;
+    font: 1.4rem;
+}
+
+.add-item i{
+    color: white;
+   font-size: 2rem;
+   text-align: center;
+   margin-top: 1rem;
+background: var(--color-bg);
+    padding: -1rem;
+    border-radius: 50%;
+}
+ .lineThrough{
+text-decoration: line-through;
+}

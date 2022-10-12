@@ -1,0 +1,67 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+   font-family: sans-serif;
+   
+  }
+  
+  /* now let us make use of css variable */
+  :root {
+    --color-primary: #7b3117;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-variant: rgba(247, 88, 66, 0.4);
+    --color-white: #ffff;
+    --color-light: rgba(255, 255, 255, 0.7);
+    --color-black: #000;
+    --color-bg: #33160c;
+    --color-bg1: #592615;
+    --color-bg2: #424890;
+  
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+    --transition: all 400ms ease;
+  }
+  
+  /* end of css variables */
+  
+  /* we are going to continue with the basic styling */
+  
+  /* go grab fonts from google fonts */
+  body {
+    line-height: 1.7;
+    color: var(--color-white);
+    background: var(--color-bg);
+  }
+  
+  /* our container is going to try to centralise everthing inside of it */
+  
+  .container {
+    width: var(--container-width-lg);
+    margin: 0 auto; /*going to  push it in the middle on large devices*/
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+  }
+  .box{
+    background: var(--color-bg1);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+  
+  i{
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+  }
